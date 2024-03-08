@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-Resume</title>
+    <link rel="stylesheet" href="css/body-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    
+    <!-- JavaScript file for scroll effects -->
+    <script src="js/scroll-effects.js"> </script>
+    
+    
+    
+        
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+
+                        <!-- Header content -->
+                        <header>
+                            <nav>
+                                <div class="header-middle">
+                                    <a href="#home" class="active">HOME</a>
+                                    <a href="#about">ABOUT ME</a>
+                                    <a href="#resume">RESUME</a>
+                                    <a href="#myproj">PROJECTS</a>
+                                </div>
+                                
+                            </nav>
+                            
+                        </header>
+                    </div>
+                </div>
+            </div>
+
+    <!-- home section - include image and name -->
+    
+        <section id="home" style="background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/laptopbg1.jpg');">
+            
+                <div class="col-lg-9">
+                    <div class="myimg">
+                        <img src="images/my-img.jpeg" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-7 offset-lg-5">
+                    <div class="myname">
+                        <p id="name">Hello 👋, I'm Ranjan Dey!</p>
+                        <br>
+                    </div>
+                </div>
+                 
+                <!-- down arrow linked to about section -->
+                <div class="down-ico">
+                    <a href="#about">
+                        <i class="fas fa-angle-double-down fa-3x"></i>
+                    </a>
+                </div>
+            
+            
+        </section>
+    
+    <!-- about section - include about me details -->
+    <section id="about" style="background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/dark-blue-product-background-new.jpg');"  >
+        
+        <div class="col-lg-12">
+            <div class="myself" >
+                
+                    <p class="topic" style="color: aliceblue;">About Me</p><br>
+
+                    <!-- <div className="cta">
+
+                        <a href={CV} download className='btn'>Download CV</a>
+                        <a href="#contacts" className='btn btn-primary'>Contact Me</a>
+                    </div> -->
+                
+                
+                <p class="descrip" style="color: silver;">I'm a <b>Software Engineering Professional</b> with an overall 10+ years of experience in IT industry. 
+                    I'm passionate about learning new technicall skills and love to implement it in a challenging environment.
+                    Over the years I've worked in different domains of software engineering and delivered multiple projects.<br></br>
+                    
+                    With a strong academic foundation in software engineering and hands-on experience in various programming languages,
+                    I am eager to contribute to innovative projects and learn from experienced professionals in the industry.
+                </p>
+                
+            </div>
+        </div>
+        
+    </section>
+    
+    
+
+   <!-- resume section - include education, contacts and skills details  -->
+    <section id="resume" style="background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/wooden-tabletop-new.jpg');">
+        
+        <div class="col-lg-12">
+
+            <div class="row">
+                <!-- Education details -->
+                <div class="col-lg-4">
+                    <div class="projec">
+                        
+                        <p class="qualifi-name">
+                            EDUCATION
+                        </p>
+    
+                        <svg width="15" height="10" viewBox="0 0 42 25">
+                            <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    
+                    <div class="proj-desc">
+                        
+                        <p class="proj1-details" style="color: aliceblue;"><b style="font-size: 20px;">West Bengal University of Technology, WB, India</b> <br> <span class="edu-desc-row2">B. Tech. in Electronics & Communication - (CGPA 8.55)</span><br> 
+                            2010 - 2014 <br><br>
+                        </p>
+                        
+                    </div>
+                </div>
+                </div>
+                
+                <!-- Contacts details -->
+                <div class="col-lg-4">
+                    <div class="projec">
+                        
+                        <p class="qualifi-name">
+                            CONTACTS
+                        </p>
+    
+                        <svg width="15" height="10" viewBox="0 0 42 25">
+                            <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    
+                     <div class="proj-desc">
+                        
+                        <div class="cont-ico">
+                            <p class="proj1-details" style="color:rgb(62, 60, 60);"><i class="fa fa-phone-square fa-beat fa-2x" aria-hidden="true" ></i><span style="color: beige; font-size: 20px;">&emsp;&emsp;<a href="tel:+94778388206" style="color: beige;">+91 96412-40204</a></span><br> <br></p>
+                        </div>
+                        <div class="cont-ico">
+                            <p class="proj1-details" style="color:rgb(62, 60, 60);"><i class="fa-brands fa-linkedin fa-beat fa-2x" aria-hidden="true" ></i><span style="font-size: 20px;">&emsp;&emsp;<a href="https://www.linkedin.com/in/ranjan-dey/" style="color: beige;"><i>Ranjan Dey</i></a></span><br> <br></p>
+                        </div>
+                        <div class="cont-ico">
+                            <p class="proj1-details" style="color:rgb(62, 60, 60);"><i class="fa-brands fa-github fa-beat fa-2x" aria-hidden="true" ></i><span style="font-size: 20px;">&emsp;&emsp;<a href="https://github.com/ranjandey" style="color: beige;"><i>Ranjan-Dey</i></a></span><br> <br></p>
+                        </div>
+                        <div class="cont-ico">
+                            <p class="proj1-details" style="color:rgb(62, 60, 60);"><i class="fa-sharp fa-solid fa-at fa-beat fa-2x" aria-hidden="true"></i><span style="font-size: 20px;">&emsp;&emsp;<a href="mailto:ranjan.dey@outlook.com" style="color: beige;"><i>ranjan.dey@outlook.com</i></a></span><br> <br></p>
+                        </div>
+                        <!-- <div class="cont-ico">
+                            <p class="proj1-details" style="color:rgb(62, 60, 60);"><i class="fa-brands fa-medium fa-beat fa-2x" aria-hidden="true"></i><span style="font-size: 20px;">&emsp;&emsp;<a href="https://medium.com/@thakshiladb2000" style="color: beige;"><i>Thakshila Bandara</i></a></span><br> <br></p>
+                        </div> -->
+                    </div>
+                </div>
+                    
+
+              
+ 
+            </div>
+
+            <!-- Technical skills details -->
+            <div class="col-lg-4">
+
+                <div class="projec">
+                    <p class="qualifi-name">
+                        SKILLS
+                    </p>
+
+                    <svg width="15" height="10" viewBox="0 0 42 25">
+                        <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+
+                    <div class="proj-desc" style="padding-top: 8%;">
+                      <div class="skill-set">
+                        <p class="tech"><b>HTML/CSS/Bootstrap</b></p>
+                        <div class="container-skills-tech">
+                            <div class="skills html">70%</div>  
+                        </div>
+                        <br>
+
+                        <p class="tech"><b>Java</b></p>
+                        <div class="container-skills-tech">
+                            <div class="skills java">90%</div>
+                  
+                        </div>
+                        <br>
+
+                        <p class="tech"><b>SpringBoot</b></p>
+                        <div class="container-skills-tech">
+                            <div class="skills sprb">80%</div>
+                        </div>
+                        <br>
+
+                        <p class="tech"><b>React</b></p>
+                        <div class="container-skills-tech">
+                            <div class="skills react">65%</div>
+                        </div>
+                        <br>
+
+                        <p class="tech"><b>SQL/NoSQL</b></p>
+                        <div class="container-skills-tech">
+                            <div class="skills sql">70%</div>
+                        </div>
+                        <br>
+
+                        <p class="tech"><b>Cloud/DevOps</b></p>
+                        <div class="container-skills-tech">
+                            <div class="skills devops">50%</div>
+                        </div>
+                        <br>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+ <!-- Project section - include project details -->
+    <section class="myproj" id="myproj" style="background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/flat-lay.jpg');">
+        <p class="proj-topic" style="color: aliceblue;">
+            PROJECTS
+        </p>
+        
+            <div class="col-lg-12">
+                <div class="z2" style="z-index: 2;">
+                    <div class="row" >
+                        <div class="col-lg-4">
+        
+                            <!-- Fashion Gallery -->
+                            <div class="projec">
+                                
+                                    <p class="proj-name">
+                                        Fashion Gallery
+                                    </p>
+                
+                                    <svg width="15" height="10" viewBox="0 0 42 25">
+                                        <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                
+                                <div class="proj-desc">
+                                    <img src="images/logo.png" alt="">
+                                    <p class="proj1-details" style="color: aliceblue;">Fashion Gallery is an full stack e-commerce system with REST
+                                        APIs. <br><br> Technologies: <b>Spring boot | React | MySQL | Postman</b> <br> 
+                                        Project link: <a href="https://github.com/himani413/FashionGallery.git" style="color:bisque"><i>Fashion-gallery</i></a>
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                        <div class="col-lg-4">
+        
+                            <!-- My Profile -->
+                            <div class="projec">
+                                
+                                    <p class="proj-name">
+                                        My Profile
+                                    </p>
+                
+                                    <svg width="15" height="10" viewBox="0 0 42 25">
+                                        <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                
+                                <div class="proj-desc">
+                                    <img src="images/portfolio-img.png" alt="">
+                                    <p class="proj1-details" style="color: aliceblue;">My Profile is a snapshot of my Working Profile.
+                                        <br><br> Technologies: <b>HTML | CSS | BOOTSTRAP | REACT-JS</b> <br> 
+                                        Project link: <a href="https://github.com/ranjandey/my-portfolio" style="color:bisque"><i>Ranjan-profile</i></a>
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+        
+                        <div class="col-lg-4">
+        
+                            <!-- My Resume -->
+                            <div class="projec">
+                                
+                                    <p class="proj-name">
+                                        My Resume
+                                    </p>
+                
+                                    <svg width="15" height="10" viewBox="0 0 42 25">
+                                        <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                
+                                <div class="proj-desc">
+                                    <img src="images/myres.png" alt="">
+                                    <p class="proj1-details" style="color: aliceblue;">A simple resume web page (This web page).
+                                    <br><br> Technologies: <b>HTML | CSS | JS</b> <br> 
+                                        Project link: <a href="https://github.com/Thakshila-Bandara/my-resume.git" style="color:bisque"><i>My-resume</i></a>
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            
+                <div class="mr-auto ml-auto">
+                    <a href="#home" class="up-arrow" style="color: aliceblue; text-decoration: none;"><i class="fas fa-angle-double-up fa-2x"></i></a>
+                </div>
+
+    </section>
+</div>
+    <!-- JavaScript file for toggle effects -->
+    <script src="js/proj-toggle-effects.js"></script> 
+</body>
+</html>

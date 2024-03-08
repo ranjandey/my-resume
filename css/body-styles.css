@@ -1,0 +1,441 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+html{
+
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+
+    display: none;
+}
+
+body, html{
+
+    height: 100%;
+    margin: 0%;
+    color: black;
+}
+
+/* CSS part for header and nav bar */
+header{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 120px;
+    background: #11141a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+nav{
+    padding-left: 30%;
+}
+
+.header-middle a{
+
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 35px;
+    text-decoration: none;
+    transition: .3s;
+    
+}
+
+nav a:hover, nav a.active{
+
+    color: #cd8405;
+}
+
+/* css part for home section */
+#home{
+    
+    position: relative;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.myself{
+    
+    width: 100%;
+ }
+
+.myname{
+    font-style:normal;
+    text-align: center;
+    float: right;
+    width: 73%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.myname p{
+    margin: 0;
+    color: aliceblue;
+    font-size: 70px;
+    text-shadow: 2px 2px 4px #000000;
+    
+}
+
+
+.myimg{
+    
+    width: 40%;
+    position: relative;
+    height: 100vh;
+    margin-right: 0%;
+    float: left;
+}
+
+.myimg img{
+ 
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    
+    width: 60%;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.myimg img:hover{
+
+    color: white;
+    box-shadow: 0 5px 15px #afe0f5;
+}
+
+.down-ico{
+
+    width: 10%;
+    position: absolute;
+    top: 80%;
+    bottom: 30%; 
+    left: 50%;
+    transform: translateX(-40%);
+    
+}
+
+.down-ico span{
+
+    
+    font-size: 70%;
+    
+}
+
+.down-ico a{
+
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+
+.down-ico a:hover{
+
+    color: goldenrod;
+}
+
+/* css part for about section */
+#about{
+
+    position: relative;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+}
+
+.myself > p.topic{
+
+    margin-top: 7%;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-55%, -50%);
+    font-size: 60px;
+    font-family:sans-serif;
+    
+}
+
+.myself > p.descrip{
+
+    margin-top: 20%;
+    position: absolute;
+    padding-top: 5%;
+    top: 38%;
+    left: 50%;
+    transform: translate(-55%, -50%);
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* css part for resume section */
+#resume{
+
+    position: relative;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#resume > .col-lg-12{
+
+    padding-top: 2%;
+}
+
+.qualifi-name{
+
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+    justify-content: space-between;
+    color:azure;
+    
+}
+
+.skill{
+
+    position: absolute;
+    height: 60%;
+    left: 10%;
+    right: 20%;
+    top: 7%;
+}
+
+.skills {
+    text-align: right; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    color: white; 
+}
+
+.tech{
+
+    margin: 0;
+    color: rgb(31, 29, 29);
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.container-skills-tech{
+
+    width: 100%; 
+    background-color: #dddddd9b;  
+}
+
+
+/* Individual Skills progress styles */
+
+.html {
+    width: 70%; 
+    background-color: #000000;
+    
+
+}
+
+.java{
+
+    width: 90%;
+    background-color: #000000;
+}
+
+.sprb{
+
+    width: 80%;
+    background-color: #000000;
+}
+
+.react{
+
+    width: 65%;
+    background-color: #000000;
+}
+
+.sql{
+
+    width: 70%;
+    background-color: #000000;
+}
+
+.devops{
+    width: 50%;
+    background-color: #000000;
+}
+
+.skill-set{
+    
+    margin-left: 10%;
+    padding-top: -5%;
+
+}
+
+/* css part for project section */
+#myproj{
+
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.cta{
+
+    margin-top: 2.5rem;  /*to push buttons littlebit down*/
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+.proj-topic{
+
+    
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-55%, -24%);
+    font-size: 55px;
+    font-family:sans-serif;
+}
+
+.proj-name{
+
+    color: azure;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: space-between;
+    
+    
+}
+
+.myproj > .col-lg-12{
+
+    top: 25%;
+    position: absolute;
+}
+
+.projec{
+
+    border-bottom: 2px solid #fff;
+    cursor: pointer;
+    justify-content: space-between;
+    padding-top: 10%;
+}
+.projec img{
+
+    width: 40%;
+    transform: translate(75%);
+    padding-bottom: 7%;
+}
+
+.projec > p.proj1-details{
+
+    margin-left: 2%;
+    line-height: 1.5;
+}
+
+.projec svg{
+
+    float: right;
+    transform: translateY(-319%);
+    transform-origin: center;
+}
+
+.proj-desc{
+
+    padding-top: 10%;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.4s ease;
+}
+
+.projec.active .proj-desc{
+
+    max-height: 90vh;
+    animation: fade 1s ease-in-out;
+}
+
+.projec.active svg{
+
+    transform: translateY(-319%) rotate(180deg);
+    
+    
+}
+
+svg{
+
+    transition: transform .5s ease-in;
+}
+
+/* for include some animations when accordion effect work */
+@keyframes fade{
+
+    from{
+
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.proj-desc a{
+
+    text-decoration: none;
+}
+
+.proj1-details i{
+
+    padding-top: 2%;
+}
+
+.cont-ico{
+
+    text-align: justify;
+    margin-left: 15%;
+}
+
+.up-arrow{
+
+    position: absolute;
+    top: 90%;
+    left: 50%;
+}
+
+.up-arrow i:hover{
+
+    color: goldenrod;
+}
